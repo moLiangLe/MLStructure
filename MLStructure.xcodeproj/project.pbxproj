@@ -7,27 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E280C0C1CE4808D00A6A874 /* MLStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E280C0B1CE4808D00A6A874 /* MLStack.swift */; };
+		7E280C0E1CE482FF00A6A874 /* MLLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E280C0D1CE482FF00A6A874 /* MLLinkedList.swift */; };
 		7EDD605B1CE30735001BE531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD605A1CE30735001BE531 /* AppDelegate.swift */; };
 		7EDD605D1CE30735001BE531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD605C1CE30735001BE531 /* ViewController.swift */; };
 		7EDD60601CE30735001BE531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD605E1CE30735001BE531 /* Main.storyboard */; };
 		7EDD60621CE30735001BE531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD60611CE30735001BE531 /* Assets.xcassets */; };
 		7EDD60651CE30735001BE531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD60631CE30735001BE531 /* LaunchScreen.storyboard */; };
-		7EDD60711CE3082E001BE531 /* MLBaseStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60701CE3082E001BE531 /* MLBaseStructures.swift */; };
-		7EDD60791CE33344001BE531 /* MLStructuresExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60781CE33344001BE531 /* MLStructuresExtension.swift */; };
-		7EDD607B1CE33369001BE531 /* MLAVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD607A1CE33369001BE531 /* MLAVLTree.swift */; };
-		7EDD60861CE333EB001BE531 /* Bloom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD607C1CE333EB001BE531 /* Bloom.swift */; };
-		7EDD60871CE333EB001BE531 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD607D1CE333EB001BE531 /* Graph.swift */; };
-		7EDD60881CE333EB001BE531 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD607E1CE333EB001BE531 /* HashTable.swift */; };
-		7EDD60891CE333EB001BE531 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD607F1CE333EB001BE531 /* LinkedList.swift */; };
-		7EDD608A1CE333EB001BE531 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60801CE333EB001BE531 /* Math.swift */; };
-		7EDD608B1CE333EB001BE531 /* PathHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60811CE333EB001BE531 /* PathHeap.swift */; };
-		7EDD608C1CE333EB001BE531 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60821CE333EB001BE531 /* Queue.swift */; };
-		7EDD608D1CE333EB001BE531 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60831CE333EB001BE531 /* Sorting.swift */; };
-		7EDD608E1CE333EB001BE531 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60841CE333EB001BE531 /* Stack.swift */; };
-		7EDD608F1CE333EB001BE531 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD60851CE333EB001BE531 /* Trie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E280C0B1CE4808D00A6A874 /* MLStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLStack.swift; sourceTree = "<group>"; };
+		7E280C0D1CE482FF00A6A874 /* MLLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLLinkedList.swift; sourceTree = "<group>"; };
 		7EDD60571CE30735001BE531 /* MLStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDD605A1CE30735001BE531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDD605C1CE30735001BE531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,19 +26,6 @@
 		7EDD60611CE30735001BE531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDD60641CE30735001BE531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDD60661CE30735001BE531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EDD60701CE3082E001BE531 /* MLBaseStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLBaseStructures.swift; sourceTree = "<group>"; };
-		7EDD60781CE33344001BE531 /* MLStructuresExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLStructuresExtension.swift; sourceTree = "<group>"; };
-		7EDD607A1CE33369001BE531 /* MLAVLTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLAVLTree.swift; sourceTree = "<group>"; };
-		7EDD607C1CE333EB001BE531 /* Bloom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bloom.swift; sourceTree = "<group>"; };
-		7EDD607D1CE333EB001BE531 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
-		7EDD607E1CE333EB001BE531 /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
-		7EDD607F1CE333EB001BE531 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
-		7EDD60801CE333EB001BE531 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
-		7EDD60811CE333EB001BE531 /* PathHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathHeap.swift; sourceTree = "<group>"; };
-		7EDD60821CE333EB001BE531 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		7EDD60831CE333EB001BE531 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
-		7EDD60841CE333EB001BE531 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		7EDD60851CE333EB001BE531 /* Trie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +58,6 @@
 		7EDD60591CE30735001BE531 /* MLStructure */ = {
 			isa = PBXGroup;
 			children = (
-				7EDD606C1CE307E8001BE531 /* Factories */,
 				7EDD606D1CE307E8001BE531 /* Structures */,
 				7EDD605A1CE30735001BE531 /* AppDelegate.swift */,
 				7EDD605C1CE30735001BE531 /* ViewController.swift */,
@@ -92,29 +69,11 @@
 			path = MLStructure;
 			sourceTree = "<group>";
 		};
-		7EDD606C1CE307E8001BE531 /* Factories */ = {
-			isa = PBXGroup;
-			children = (
-				7EDD607C1CE333EB001BE531 /* Bloom.swift */,
-				7EDD607D1CE333EB001BE531 /* Graph.swift */,
-				7EDD607E1CE333EB001BE531 /* HashTable.swift */,
-				7EDD607F1CE333EB001BE531 /* LinkedList.swift */,
-				7EDD60801CE333EB001BE531 /* Math.swift */,
-				7EDD60811CE333EB001BE531 /* PathHeap.swift */,
-				7EDD60821CE333EB001BE531 /* Queue.swift */,
-				7EDD60831CE333EB001BE531 /* Sorting.swift */,
-				7EDD60841CE333EB001BE531 /* Stack.swift */,
-				7EDD60851CE333EB001BE531 /* Trie.swift */,
-			);
-			path = Factories;
-			sourceTree = "<group>";
-		};
 		7EDD606D1CE307E8001BE531 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				7EDD60701CE3082E001BE531 /* MLBaseStructures.swift */,
-				7EDD60781CE33344001BE531 /* MLStructuresExtension.swift */,
-				7EDD607A1CE33369001BE531 /* MLAVLTree.swift */,
+				7E280C0B1CE4808D00A6A874 /* MLStack.swift */,
+				7E280C0D1CE482FF00A6A874 /* MLLinkedList.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -190,21 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EDD608F1CE333EB001BE531 /* Trie.swift in Sources */,
-				7EDD60891CE333EB001BE531 /* LinkedList.swift in Sources */,
-				7EDD607B1CE33369001BE531 /* MLAVLTree.swift in Sources */,
-				7EDD608E1CE333EB001BE531 /* Stack.swift in Sources */,
-				7EDD60861CE333EB001BE531 /* Bloom.swift in Sources */,
-				7EDD60871CE333EB001BE531 /* Graph.swift in Sources */,
-				7EDD608D1CE333EB001BE531 /* Sorting.swift in Sources */,
-				7EDD60791CE33344001BE531 /* MLStructuresExtension.swift in Sources */,
-				7EDD608B1CE333EB001BE531 /* PathHeap.swift in Sources */,
-				7EDD60711CE3082E001BE531 /* MLBaseStructures.swift in Sources */,
-				7EDD608C1CE333EB001BE531 /* Queue.swift in Sources */,
 				7EDD605D1CE30735001BE531 /* ViewController.swift in Sources */,
-				7EDD60881CE333EB001BE531 /* HashTable.swift in Sources */,
+				7E280C0E1CE482FF00A6A874 /* MLLinkedList.swift in Sources */,
 				7EDD605B1CE30735001BE531 /* AppDelegate.swift in Sources */,
-				7EDD608A1CE333EB001BE531 /* Math.swift in Sources */,
+				7E280C0C1CE4808D00A6A874 /* MLStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
